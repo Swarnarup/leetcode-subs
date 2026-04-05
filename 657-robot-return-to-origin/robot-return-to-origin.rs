@@ -7,7 +7,7 @@ impl Solution {
                 'L' => x -= 1,
                 'U' => y += 1,
                 'D' => y -= 1,
-                _ => ()
+                _ => continue
             }
         }
         x == 0 && y == 0
